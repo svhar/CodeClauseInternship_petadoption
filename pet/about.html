@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    body {
+        height: 100%;
+        font-family: Arial, sans-serif;
+    }
+     
+    * {
+        box-sizing: border-box;
+    }
+     
+    h1 {
+        text-align:center;
+        color:rgb(185, 4, 107);
+        -webkit-text-stroke: 1px rgb(24, 4, 208);
+    }
+     
+    /* styling background image */
+    .bg-img {
+        background-image: url("/pet/pet/imagess/pet4.jpg");
+        min-height: 880px;
+        background-size: cover;
+    }
+ 
+    /* Styling the form container */
+    .container {
+        position: absolute;
+        left: 28px;
+        top: 50px;
+        margin: 20px;
+        max-width: 300px;
+        padding: 16px;
+    }
+
+    b {
+        color: rgb(29, 137, 29);
+        font-size:26px;
+        -webkit-text-stroke: 1px rgb(29, 157, 18);
+    }
+ 
+    /* Full-width input */
+    input[type=text],
+    input[type=LOCATION] {
+        width: 100%;
+        padding: 20px;
+        margin: 15px 0px;
+        border: 2px solid rgb(38, 15, 168);
+    }
+     
+
+ 
+    /* Styling the submit button */
+    .button {
+        background-color: rgb(167, 11, 112);
+        color: white;
+        padding: 16px 16px;
+        border: none;
+        cursor: pointer;
+        width: 100%;
+    }
+     
+    .button:hover {
+        transform: scale(1.1);
+        transition: transform 0.3s;
+    }
+</style>
+<H1>SEARCH YOUR FRIEND </H1>
+</head>
+<body>
+<div class="bg-img">
+    <form class="container">
+        <b>PET TYPE</b>
+        <input type="text"
+               placeholder=" Please fill"
+               name="PET TYPE"
+               required>
+
+        <b>LOCATION</b>
+        <input type="text "
+               placeholder="LOCATION"
+               name="LOCATION"
+               required>
+
+        <button type="submit"
+                class="button">
+             <a href="/pet/goo.html"> SEARCH</a>
+          </button>
+        </form>
+    </div>   
+</body>
+</html>
